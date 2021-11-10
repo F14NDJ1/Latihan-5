@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+.col1 {
+  padding: 50px;
+  float: left;  
+  width: 50%; /* The width is 20%, by default */
+}.col2 {
+  padding: 50px;
+  float: left;  
+  width: 50%; /* The width is 20%, by default */
+}
+  
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .col1, .col2 {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+</style>
+</head>
+<body style="font-family:Verdana;">
+
+<div style="background-color:#f1f1f1;padding:15px;">
+  <h1>Indonesia maju</h1>
+  <!-- <h3>Resize the browser window</h3> -->
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <ul class="rounded">  
+      <li><a href="">Sumatra</a></li>
+      <li><a href="">Kalimantan</a></li>
+      <li><a href="">Jawa</a></li>
+      <li><a href="">Bali</a></li>
+    </ul>
+    
+  </div>
+  <div class="main">    
+      <div class="col1" >
+       <h2>Maju bersama kami</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <img src="https://www.pdiperjuangan.id/static/media/pdiperjuangan02.ebeef5b5.svg " style="width:100%">
+      </div>
+      <div class="col2">
+        <h2>Maju bersama kami</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <img src="https://www.pdiperjuangan.id/static/media/pdiperjuangan02.ebeef5b5.svg" style="width:100%">
+      </div>     
+      <div class="col1" >
+       <h2>Maju bersama kami</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <img src="https://www.pdiperjuangan.id/static/media/pdiperjuangan02.ebeef5b5.svg" style="width:100%">
+      </div>
+      <div class="col2">
+        <h2>Maju bersama kami</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+          <img src="https://www.pdiperjuangan.id/static/media/pdiperjuangan02.ebeef5b5.svg" style="width:100%">
+      </div>    
+  </div>  
+</div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> This web page is a part of a demonstration of fluid web design made by w3schools.com. Resize the browser window to see the content respond to the resizing.</div>
+
+</body>
+</html>
+
